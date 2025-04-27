@@ -1,0 +1,97 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #e0f7da 0%, #c8e6c9 100%);
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+  color: #2a7ae2;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8em;
+  border-bottom: 2px solid #2a7ae2;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0 0 20px 20px;
+  padding: 0;
+  list-style-type: disc;
+  font-size: 1.1em;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 40px 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px auto;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p, ul {
+    font-size: 1em;
+  }
+}
